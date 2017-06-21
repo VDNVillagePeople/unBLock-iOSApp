@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LoginApp.xcodeproj">
+      location = "self:/Users/user127341/Documents/unBLock-iOSApp/UnBlock.xcodeproj">
    </FileRef>
 </Workspace>

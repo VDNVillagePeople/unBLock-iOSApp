@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		92508AC11EE494DC0073E188 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92508AC11EE494DC0073E188 /* UnBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92508AC41EE494DC0073E188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92508AC61EE494DC0073E188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92508AC91EE494DC0073E188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92508ACB1EE494DC0073E188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92508ACE1EE494DC0073E188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92508AD01EE494DC0073E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92508AD51EE494DC0073E188 /* LoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92508AD51EE494DC0073E188 /* UnBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92508AD91EE494DC0073E188 /* LoginAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppTests.swift; sourceTree = "<group>"; };
 		92508ADB1EE494DC0073E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92508AE01EE494DC0073E188 /* LoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92508AE01EE494DC0073E188 /* UnBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92508AE41EE494DD0073E188 /* LoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppUITests.swift; sourceTree = "<group>"; };
 		92508AE61EE494DD0073E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		92508AB81EE494DC0073E188 = {
 			isa = PBXGroup;
 			children = (
-				92508AC31EE494DC0073E188 /* LoginApp */,
-				92508AD81EE494DC0073E188 /* LoginAppTests */,
-				92508AE31EE494DC0073E188 /* LoginAppUITests */,
+				92508AC31EE494DC0073E188 /* UnBlock */,
+				92508AD81EE494DC0073E188 /* UnBlockTests */,
+				92508AE31EE494DC0073E188 /* UnBlockUITests */,
 				92508AC21EE494DC0073E188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		92508AC21EE494DC0073E188 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92508AC11EE494DC0073E188 /* LoginApp.app */,
-				92508AD51EE494DC0073E188 /* LoginAppTests.xctest */,
-				92508AE01EE494DC0073E188 /* LoginAppUITests.xctest */,
+				92508AC11EE494DC0073E188 /* UnBlock.app */,
+				92508AD51EE494DC0073E188 /* UnBlockTests.xctest */,
+				92508AE01EE494DC0073E188 /* UnBlockUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92508AC31EE494DC0073E188 /* LoginApp */ = {
+		92508AC31EE494DC0073E188 /* UnBlock */ = {
 			isa = PBXGroup;
 			children = (
 				92508AC41EE494DC0073E188 /* AppDelegate.swift */,
@@ -104,33 +104,36 @@
 				92508ACD1EE494DC0073E188 /* LaunchScreen.storyboard */,
 				92508AD01EE494DC0073E188 /* Info.plist */,
 			);
+			name = UnBlock;
 			path = LoginApp;
 			sourceTree = "<group>";
 		};
-		92508AD81EE494DC0073E188 /* LoginAppTests */ = {
+		92508AD81EE494DC0073E188 /* UnBlockTests */ = {
 			isa = PBXGroup;
 			children = (
 				92508AD91EE494DC0073E188 /* LoginAppTests.swift */,
 				92508ADB1EE494DC0073E188 /* Info.plist */,
 			);
+			name = UnBlockTests;
 			path = LoginAppTests;
 			sourceTree = "<group>";
 		};
-		92508AE31EE494DC0073E188 /* LoginAppUITests */ = {
+		92508AE31EE494DC0073E188 /* UnBlockUITests */ = {
 			isa = PBXGroup;
 			children = (
 				92508AE41EE494DD0073E188 /* LoginAppUITests.swift */,
 				92508AE61EE494DD0073E188 /* Info.plist */,
 			);
+			name = UnBlockUITests;
 			path = LoginAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92508AC01EE494DC0073E188 /* LoginApp */ = {
+		92508AC01EE494DC0073E188 /* UnBlock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92508AE91EE494DD0073E188 /* Build configuration list for PBXNativeTarget "LoginApp" */;
+			buildConfigurationList = 92508AE91EE494DD0073E188 /* Build configuration list for PBXNativeTarget "UnBlock" */;
 			buildPhases = (
 				92508ABD1EE494DC0073E188 /* Sources */,
 				92508ABE1EE494DC0073E188 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = LoginApp;
+			name = UnBlock;
 			productName = LoginApp;
-			productReference = 92508AC11EE494DC0073E188 /* LoginApp.app */;
+			productReference = 92508AC11EE494DC0073E188 /* UnBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92508AD41EE494DC0073E188 /* LoginAppTests */ = {
+		92508AD41EE494DC0073E188 /* UnBlockTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92508AEC1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "LoginAppTests" */;
+			buildConfigurationList = 92508AEC1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "UnBlockTests" */;
 			buildPhases = (
 				92508AD11EE494DC0073E188 /* Sources */,
 				92508AD21EE494DC0073E188 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				92508AD71EE494DC0073E188 /* PBXTargetDependency */,
 			);
-			name = LoginAppTests;
+			name = UnBlockTests;
 			productName = LoginAppTests;
-			productReference = 92508AD51EE494DC0073E188 /* LoginAppTests.xctest */;
+			productReference = 92508AD51EE494DC0073E188 /* UnBlockTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92508ADF1EE494DC0073E188 /* LoginAppUITests */ = {
+		92508ADF1EE494DC0073E188 /* UnBlockUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92508AEF1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "LoginAppUITests" */;
+			buildConfigurationList = 92508AEF1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "UnBlockUITests" */;
 			buildPhases = (
 				92508ADC1EE494DC0073E188 /* Sources */,
 				92508ADD1EE494DC0073E188 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				92508AE21EE494DC0073E188 /* PBXTargetDependency */,
 			);
-			name = LoginAppUITests;
+			name = UnBlockUITests;
 			productName = LoginAppUITests;
-			productReference = 92508AE01EE494DC0073E188 /* LoginAppUITests.xctest */;
+			productReference = 92508AE01EE494DC0073E188 /* UnBlockUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92508ABC1EE494DC0073E188 /* Build configuration list for PBXProject "LoginApp" */;
+			buildConfigurationList = 92508ABC1EE494DC0073E188 /* Build configuration list for PBXProject "UnBlock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92508AC01EE494DC0073E188 /* LoginApp */,
-				92508AD41EE494DC0073E188 /* LoginAppTests */,
-				92508ADF1EE494DC0073E188 /* LoginAppUITests */,
+				92508AC01EE494DC0073E188 /* UnBlock */,
+				92508AD41EE494DC0073E188 /* UnBlockTests */,
+				92508ADF1EE494DC0073E188 /* UnBlockUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		92508AD71EE494DC0073E188 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92508AC01EE494DC0073E188 /* LoginApp */;
+			target = 92508AC01EE494DC0073E188 /* UnBlock */;
 			targetProxy = 92508AD61EE494DC0073E188 /* PBXContainerItemProxy */;
 		};
 		92508AE21EE494DC0073E188 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92508AC01EE494DC0073E188 /* LoginApp */;
+			target = 92508AC01EE494DC0073E188 /* UnBlock */;
 			targetProxy = 92508AE11EE494DC0073E188 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdn.LoginAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginApp.app/LoginApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnBlock.app/UnBlock";
 			};
 			name = Debug;
 		};
@@ -458,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdn.LoginAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginApp.app/LoginApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnBlock.app/UnBlock";
 			};
 			name = Release;
 		};
@@ -491,7 +494,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92508ABC1EE494DC0073E188 /* Build configuration list for PBXProject "LoginApp" */ = {
+		92508ABC1EE494DC0073E188 /* Build configuration list for PBXProject "UnBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92508AE71EE494DD0073E188 /* Debug */,
@@ -500,29 +503,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92508AE91EE494DD0073E188 /* Build configuration list for PBXNativeTarget "LoginApp" */ = {
+		92508AE91EE494DD0073E188 /* Build configuration list for PBXNativeTarget "UnBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92508AEA1EE494DD0073E188 /* Debug */,
 				92508AEB1EE494DD0073E188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		92508AEC1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "LoginAppTests" */ = {
+		92508AEC1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "UnBlockTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92508AED1EE494DD0073E188 /* Debug */,
 				92508AEE1EE494DD0073E188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		92508AEF1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "LoginAppUITests" */ = {
+		92508AEF1EE494DD0073E188 /* Build configuration list for PBXNativeTarget "UnBlockUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92508AF01EE494DD0073E188 /* Debug */,
 				92508AF11EE494DD0073E188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

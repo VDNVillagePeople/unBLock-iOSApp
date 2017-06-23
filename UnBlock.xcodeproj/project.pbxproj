@@ -14,6 +14,7 @@
 		92508ACF1EE494DC0073E188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92508ACD1EE494DC0073E188 /* LaunchScreen.storyboard */; };
 		92508ADA1EE494DC0073E188 /* LoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92508AD91EE494DC0073E188 /* LoginAppTests.swift */; };
 		92508AE51EE494DD0073E188 /* LoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92508AE41EE494DD0073E188 /* LoginAppUITests.swift */; };
+		D5F81E4C1EFB6A5400FDAAD5 /* UnbockApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F81E4B1EFB6A5400FDAAD5 /* UnbockApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		92508AE01EE494DC0073E188 /* UnBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92508AE41EE494DD0073E188 /* LoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppUITests.swift; sourceTree = "<group>"; };
 		92508AE61EE494DD0073E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F81E4B1EFB6A5400FDAAD5 /* UnbockApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnbockApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		92508AC31EE494DC0073E188 /* UnBlock */ = {
 			isa = PBXGroup;
 			children = (
+				D5F81E4A1EFB6A1500FDAAD5 /* api */,
 				92508AC41EE494DC0073E188 /* AppDelegate.swift */,
 				92508AC61EE494DC0073E188 /* ViewController.swift */,
 				92508AC81EE494DC0073E188 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 			);
 			name = UnBlockUITests;
 			path = LoginAppUITests;
+			sourceTree = "<group>";
+		};
+		D5F81E4A1EFB6A1500FDAAD5 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				D5F81E4B1EFB6A5400FDAAD5 /* UnbockApiManager.swift */,
+			);
+			name = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				92508AC71EE494DC0073E188 /* ViewController.swift in Sources */,
 				92508AC51EE494DC0073E188 /* AppDelegate.swift in Sources */,
+				D5F81E4C1EFB6A5400FDAAD5 /* UnbockApiManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

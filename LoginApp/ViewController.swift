@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  LoginApp
-//
-//  Created by Anthony Verslues on 6/4/17.
-//  Copyright © 2017 VDN. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,7 +5,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     
     @IBAction func login(_ sender: UIButton) {
-        print(password.text! + " " + usernameEmail.text!)
+        let apiManager = UnblockApiManager.sharedInstance
+        apiManager.login(usernameOrEmail:usernameEmail.text!, password:password.text!, completion:handleLogin)
+    }
+    
+    func handleLogin(_ success: Bool, token: String?) {
+        DispatchQueue.main.async(execute: {
+            let title = success ? "Success" : "Failure"
+        let message = success ? "Logged in!: token: " + token! : "Login failed. :-("
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        })
     }
 
     override func viewDidLoad() {

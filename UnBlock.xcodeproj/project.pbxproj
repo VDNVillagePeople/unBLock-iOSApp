@@ -17,6 +17,7 @@
 		CA74EBAD1F32BF61003E91ED /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA74EBAC1F32BF61003E91ED /* LoginSuccessViewController.swift */; };
 		CA74EBAF1F3417D2003E91ED /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA74EBAE1F3417D2003E91ED /* Login.storyboard */; };
 		CAC2C7831F30289600531EF1 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C7821F30289600531EF1 /* KeychainSwift.swift */; };
+		CAF3F8981F395726008B8DF7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF3F8971F395726008B8DF7 /* SignUpViewController.swift */; };
 		D5F81E4C1EFB6A5400FDAAD5 /* UnbockApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F81E4B1EFB6A5400FDAAD5 /* UnbockApiManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		CA74EBAC1F32BF61003E91ED /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
 		CA74EBAE1F3417D2003E91ED /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		CAC2C7821F30289600531EF1 /* KeychainSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwift.swift; sourceTree = "<group>"; };
+		CAF3F8971F395726008B8DF7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D5F81E4B1EFB6A5400FDAAD5 /* UnbockApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnbockApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 			children = (
 				CA74EBAA1F32BE81003E91ED /* LoginViewController.swift */,
 				CA74EBAE1F3417D2003E91ED /* Login.storyboard */,
+				CAF3F8971F395726008B8DF7 /* SignUpViewController.swift */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF3F8981F395726008B8DF7 /* SignUpViewController.swift in Sources */,
 				CA74EBAB1F32BE81003E91ED /* LoginViewController.swift in Sources */,
 				92508AC51EE494DC0073E188 /* AppDelegate.swift in Sources */,
 				CA74EBAD1F32BF61003E91ED /* LoginSuccessViewController.swift in Sources */,

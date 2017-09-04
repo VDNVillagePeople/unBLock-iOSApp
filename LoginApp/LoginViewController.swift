@@ -8,7 +8,10 @@ class LoginViewController: UIViewController {
     
     @IBAction func login(_ sender: UIButton) {
         let apiManager = UnblockApiManager.sharedInstance
-        apiManager.login(usernameOrEmail:usernameEmail.text!, password:password.text!, completion:handleLogin)
+        apiManager.login(login:Com_Unblock_Proto_LoginRequest.with {
+            $0.usernameOrEmail = usernameEmail.text!
+            $0.password = password.text!
+        }, completion:handleLogin)
     }
     
     func handleLogin(_ success: Bool, token: String?) {
@@ -28,7 +31,7 @@ class LoginViewController: UIViewController {
     func goToLoggedIn() {
         DispatchQueue.main.async(execute: {
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let loginSuccessViewController = mainStoryboard.instantiateViewController(withIdentifier:"LoginSuccessViewController")
+            let loginSuccessViewController = mainStoryboard.instantiateViewController(withIdentifier:"MainViewController")
             self.present(loginSuccessViewController, animated: true, completion: nil)
         })
     }

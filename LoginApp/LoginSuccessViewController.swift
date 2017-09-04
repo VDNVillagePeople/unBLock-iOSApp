@@ -11,9 +11,7 @@ import UIKit
 class LoginSuccessViewController: UIViewController {
     
     var keychain: KeychainSwift!
-    
-    @IBOutlet weak var token: UILabel!
-    
+   
     @IBAction func logout(_ sender: Any) {
         keychain.delete(LoginViewController.LOGIN_TOKEN)
         DispatchQueue.main.async(execute: {
@@ -30,9 +28,6 @@ class LoginSuccessViewController: UIViewController {
         keychain = KeychainSwift()
         let tokenValue = keychain.get(LoginViewController.LOGIN_TOKEN)
         
-        token.text = tokenValue
-        token.numberOfLines = 0
-        token.sizeToFit()
     }
 
     override func didReceiveMemoryWarning() {

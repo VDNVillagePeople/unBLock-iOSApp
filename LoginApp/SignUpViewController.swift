@@ -31,7 +31,11 @@ class SignUpViewController: UIViewController {
             return
         }
         let apiManager = UnblockApiManager.sharedInstance
-        apiManager.signUp(username:username.text!, email: email.text!, password:password.text!, completion:handleSignUp)
+        apiManager.signUp(newUser: Com_Unblock_Proto_NewUserRequest.with {
+            $0.username = username.text!
+            $0.email = email.text!
+            $0.password = password.text!
+        }, completion:handleSignUp)
     }
     
     func handleSignUp(_ success: Bool, token: String?) {
@@ -51,7 +55,7 @@ class SignUpViewController: UIViewController {
     func goToLoggedIn() {
         DispatchQueue.main.async(execute: {
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let loginSuccessViewController = mainStoryboard.instantiateViewController(withIdentifier:"LoginSuccessViewController")
+            let loginSuccessViewController = mainStoryboard.instantiateViewController(withIdentifier:"MainViewController")
             self.present(loginSuccessViewController, animated: true, completion: nil)
         })
     }

@@ -27,9 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var initialViewController: UIViewController;
         if (token != nil) {
             // go to the next view
-            initialViewController = mainStoryboard.instantiateViewController(withIdentifier: "LoginSuccessViewController") as! LoginSuccessViewController
+            initialViewController = mainStoryboard.instantiateViewController(withIdentifier: "MainViewController")
         } else {
-            initialViewController = loginStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+            initialViewController = loginStoryboard.instantiateViewController(withIdentifier: "LoginViewController")
         }
 
         self.window?.rootViewController = initialViewController

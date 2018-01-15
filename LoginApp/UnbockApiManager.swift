@@ -18,6 +18,7 @@ class UnblockApiManager: NSObject {
         loginUrlRequest.httpMethod = "POST"
         
         do {
+            print(try login.jsonString())
             loginUrlRequest.httpBody = try login.jsonUTF8Data();
         } catch {
             print("Error: cannot create JSON from login")
@@ -42,6 +43,7 @@ class UnblockApiManager: NSObject {
             }
             
             guard httpResponse.statusCode == 200 else {
+                print(httpResponse.statusCode)
                 completion(false, nil)
                 return
             }
